@@ -1,0 +1,33 @@
+.Interior {
+    width: 100%;
+    height: 100vh;
+    background: url('../Interior/interior.jpg') no-repeat center center/cover;
+}
+
+.Interior .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Interior .top {
+    margin-top: 2rem;
+    color: #f6f6f6;
+}
+.Interior .bottom {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 4rem;
+}
+
+@media screen and (max-width:540px) {
+    .Interior .container .bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+}

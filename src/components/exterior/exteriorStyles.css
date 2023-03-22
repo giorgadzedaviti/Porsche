@@ -1,0 +1,34 @@
+.Exterior{
+    width: 100%;
+    height: 100vh;
+    background: url('../exterior/exterier.jpg') no-repeat center center/cover;
+}
+
+.Exterior .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Exterior .top {
+    margin-top:7rem;
+    color: #f6f6f6;
+}
+
+.Exterior .bottom {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom:4rem;
+}
+
+@media screen and (max-width:540px){
+    .Exterior .container .bottom{
+        flex-direction: column;
+        align-items: center;
+    }
+}
