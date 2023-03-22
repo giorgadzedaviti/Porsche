@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Porsche/static/css/main.797485a3.css",
+    "main.js": "/Porsche/static/js/main.a3d76d6e.js",
+    "static/media/interior.jpg": "/Porsche/static/media/interior.d84f3ce0d722e6faca91.jpg",
+    "static/media/aerodynamics.jpg": "/Porsche/static/media/aerodynamics.f3a8bbc9c028906fa251.jpg",
+    "static/media/exterier.jpg": "/Porsche/static/media/exterier.ed8641034066dac0f150.jpg",
+    "static/media/Engine.webp": "/Porsche/static/media/Engine.74f8bc4d9ce0209dc48d.webp",
+    "index.html": "/Porsche/index.html",
+    "main.797485a3.css.map": "/Porsche/static/css/main.797485a3.css.map",
+    "main.a3d76d6e.js.map": "/Porsche/static/js/main.a3d76d6e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.797485a3.css",
+    "static/js/main.a3d76d6e.js"
+  ]
+}
